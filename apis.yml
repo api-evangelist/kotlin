@@ -1,129 +1,62 @@
-name: Kotlin Programming Language APIs
-description: Collection of APIs and resources for the Kotlin programming language
-image: https://kotlinlang.org/assets/images/open-graph/kotlin-logo.png
-created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
-url: https://kotlinlang.org/apis.json
+aid: kotlin
+name: Kotlin
+description: >-
+  Kotlin is a modern, concise, and safe programming language for the JVM,
+  Android, and multiplatform development. It is developed by JetBrains and
+  provides full interoperability with Java. Kotlin's standard library and
+  ecosystem offer rich APIs for building applications across all platforms.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- kotlin
-- programming language
-- jvm
-- android
-- multiplatform
+  - Kotlin
+  - Programming Language
+  - JVM
+  - Android
+  - Multiplatform
+url: https://raw.githubusercontent.com/api-evangelist/kotlin/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: Kotlin Standard Library API
-  description: Core Kotlin standard library with collections, I/O, and utilities
-  image: https://kotlinlang.org/assets/images/kotlin-logo.svg
-  humanURL: https://kotlinlang.org/api/latest/jvm/stdlib/
-  baseURL: https://kotlinlang.org/api/latest/jvm/stdlib/
-  tags:
-  - stdlib
-  - core
-  - collections
-  properties:
-  - type: Documentation
-    url: https://kotlinlang.org/api/latest/jvm/stdlib/
-  - type: API Reference
-    url: https://kotlinlang.org/api/latest/jvm/stdlib/alltypes/
-  - type: GitHub Repository
-    url: https://github.com/JetBrains/kotlin
-- name: Kotlinx.coroutines API
-  description: Library support for Kotlin coroutines with async/await patterns
-  humanURL: https://kotlinlang.org/api/kotlinx.coroutines/
-  baseURL: https://kotlinlang.org/api/kotlinx.coroutines/
-  tags:
-  - coroutines
-  - async
-  - concurrency
-  properties:
-  - type: Documentation
-    url: https://kotlinlang.org/docs/coroutines-overview.html
-  - type: API Reference
-    url: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/
-  - type: GitHub Repository
-    url: https://github.com/Kotlin/kotlinx.coroutines
-- name: Kotlinx.serialization API
-  description: Multiplatform serialization library for Kotlin
-  humanURL: https://kotlinlang.org/api/kotlinx.serialization/
-  baseURL: https://kotlinlang.org/api/kotlinx.serialization/
-  tags:
-  - serialization
-  - json
-  - multiplatform
-  properties:
-  - type: Documentation
-    url: https://kotlinlang.org/docs/serialization.html
-  - type: API Reference
-    url: https://kotlinlang.org/api/kotlinx.serialization/
-  - type: GitHub Repository
-    url: https://github.com/Kotlin/kotlinx.serialization
-- name: Kotlin Multiplatform API
-  description: Share code between multiple platforms including JVM, JS, Native
-  humanURL: https://kotlinlang.org/docs/multiplatform.html
-  tags:
-  - multiplatform
-  - cross-platform
-  - native
-  properties:
-  - type: Documentation
-    url: https://kotlinlang.org/docs/multiplatform.html
-  - type: Getting Started
-    url: https://kotlinlang.org/docs/multiplatform-get-started.html
-  - type: Samples
-    url: https://github.com/Kotlin/kmm-samples
-- name: Ktor API
-  description: Asynchronous framework for creating microservices and web applications
-  humanURL: https://ktor.io/
-  baseURL: https://ktor.io/docs/
-  tags:
-  - web framework
-  - http
-  - server
-  - client
-  properties:
-  - type: Documentation
-    url: https://ktor.io/docs/
-  - type: API Reference
-    url: https://api.ktor.io/
-  - type: GitHub Repository
-    url: https://github.com/ktorio/ktor
-  - type: Quick Start
-    url: https://ktor.io/docs/quickstart.html
-- name: Kotlin Compiler API
-  description: Programmatic access to the Kotlin compiler
-  humanURL: https://kotlinlang.org/docs/compiler-reference.html
-  tags:
-  - compiler
-  - tooling
-  - code generation
-  properties:
-  - type: Documentation
-    url: https://kotlinlang.org/docs/compiler-reference.html
-  - type: Compiler Plugins
-    url: https://kotlinlang.org/docs/compiler-plugins.html
-  - type: GitHub Repository
-    url: https://github.com/JetBrains/kotlin
-maintainers:
-- name: JetBrains
-  email: feedback@kotlinlang.org
-  url: https://www.jetbrains.com/
+  - aid: kotlin:stdlib
+    name: Kotlin Standard Library API
+    description: >-
+      Core Kotlin standard library with collections, I/O, and utility
+      functions.
+    humanURL: https://kotlinlang.org/api/latest/jvm/stdlib/
+    tags:
+      - Stdlib
+      - Core
+      - Collections
+    properties:
+      - type: Documentation
+        url: https://kotlinlang.org/api/latest/jvm/stdlib/
+      - type: Reference
+        url: https://kotlinlang.org/api/latest/jvm/stdlib/alltypes/
+  - aid: kotlin:coroutines
+    name: Kotlin Coroutines API
+    description: Library support for Kotlin coroutines with async/await patterns.
+    humanURL: https://kotlinlang.org/api/kotlinx.coroutines/
+    tags:
+      - Coroutines
+      - Async
+      - Concurrency
+    properties:
+      - type: Documentation
+        url: https://kotlinlang.org/docs/coroutines-overview.html
+      - type: Reference
+        url: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/
 common:
-- type: Portal
-  url: https://kotlinlang.org/
-- type: Documentation
-  url: https://kotlinlang.org/docs/home.html
-- type: Blog
-  url: https://blog.jetbrains.com/kotlin/
-- type: Community
-  url: https://kotlinlang.org/community/
-- type: Slack
-  url: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-- type: Twitter
-  url: https://twitter.com/kotlin
-- type: YouTube
-  url: https://www.youtube.com/c/Kotlin
-- type: GitHub Organization
-  url: https://github.com/JetBrains/kotlin
-- type: Issue Tracker
-  url: https://youtrack.jetbrains.com/issues/KT
+  - type: Website
+    url: https://kotlinlang.org/
+  - type: Documentation
+    url: https://kotlinlang.org/docs/home.html
+  - type: Blog
+    url: https://blog.jetbrains.com/kotlin/
+  - type: GitHub Organization
+    url: https://github.com/JetBrains/kotlin
+  - type: Community
+    url: https://kotlinlang.org/community/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
