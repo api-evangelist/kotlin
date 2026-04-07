@@ -8,11 +8,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Kotlin
-  - Programming Language
-  - JVM
   - Android
+  - JVM
+  - Kotlin
   - Multiplatform
+  - Programming Language
 url: https://raw.githubusercontent.com/api-evangelist/kotlin/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -25,9 +25,9 @@ apis:
       functions.
     humanURL: https://kotlinlang.org/api/latest/jvm/stdlib/
     tags:
-      - Stdlib
-      - Core
       - Collections
+      - Core
+      - Stdlib
     properties:
       - type: Documentation
         url: https://kotlinlang.org/api/latest/jvm/stdlib/
@@ -38,9 +38,9 @@ apis:
     description: Library support for Kotlin coroutines with async/await patterns.
     humanURL: https://kotlinlang.org/api/kotlinx.coroutines/
     tags:
-      - Coroutines
       - Async
       - Concurrency
+      - Coroutines
     properties:
       - type: Documentation
         url: https://kotlinlang.org/docs/coroutines-overview.html
