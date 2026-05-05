@@ -1,0 +1,13 @@
+{
+  "repo": "kotlin",
+  "feeds": [
+    {
+      "source": "https://blog.jetbrains.com/kotlin/",
+      "feed_url": "https://blog.jetbrains.com/kotlin/feed/",
+      "saved": 10,
+      "title": "Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:30:13Z"
+}
