@@ -53,7 +53,7 @@ common:
     url: https://kotlinlang.org/docs/home.html
   - type: Blog
     url: https://blog.jetbrains.com/kotlin/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/JetBrains/kotlin
   - type: Community
     url: https://kotlinlang.org/community/
