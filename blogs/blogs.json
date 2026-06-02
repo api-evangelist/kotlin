@@ -2,12 +2,20 @@
   "repo": "kotlin",
   "feeds": [
     {
-      "source": "https://blog.jetbrains.com/kotlin/",
+      "source": "https://blog.jetbrains.com/kotlin/feed/",
       "feed_url": "https://blog.jetbrains.com/kotlin/feed/",
-      "title": "Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Blog",
-      "saved": 8
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://kotlinlang.org/docs/home.html",
+      "feed_url": "https://kotlinlang.org/docs/home.html",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 20,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 25,
+  "fetched": "2026-06-01T23:35:02Z"
 }
