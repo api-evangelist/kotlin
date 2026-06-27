@@ -59,7 +59,7 @@ common:
     url: https://github.com/JetBrains/kotlin
   - type: Community
     url: https://kotlinlang.org/community/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://kotlinlang.org/llms.txt
 maintainers:
   - FN: Kin Lane
