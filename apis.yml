@@ -47,6 +47,8 @@ apis:
       - type: Reference
         url: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/
 common:
+  - type: DomainSecurity
+    url: security/kotlin-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/jetbrains
   - type: Website
