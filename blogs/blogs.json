@@ -5,7 +5,7 @@
       "source": "https://blog.jetbrains.com/kotlin/feed/",
       "feed_url": "https://blog.jetbrains.com/kotlin/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 27,
-  "fetched": "2026-06-27T12:03:07Z"
+  "post_count": 33,
+  "fetched": "2026-07-11T11:50:51Z"
 }
