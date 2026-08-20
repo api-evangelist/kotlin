@@ -37,6 +37,10 @@ apis:
       functions.
     humanURL: https://kotlinlang.org/api/latest/jvm/stdlib/
     tags:
+      - Collection
+      - Core
+      - Stdlib
+    tags_raw:
       - Collections
       - Core
       - Stdlib
