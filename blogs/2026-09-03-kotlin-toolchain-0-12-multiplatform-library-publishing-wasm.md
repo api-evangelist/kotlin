@@ -1,0 +1,8 @@
+---
+title: "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More"
+url: "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/"
+date: "2026-09-03"
+author: "Joffrey Bion"
+feed_url: "https://blog.jetbrains.com/kotlin/feed/"
+---
+Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, and more. Read on for the details, and check the release notes for the full list of changes and bug fixes.
