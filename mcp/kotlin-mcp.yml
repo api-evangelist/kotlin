@@ -1,0 +1,23 @@
+generated: '2026-09-11'
+method: probed
+source: https://mcp.kotlinlang.org/mcp
+status: published
+server:
+  name: kotlin
+  transport: http
+  url: https://mcp.kotlinlang.org/mcp
+deployment:
+  mode: remote
+  endpoint: https://mcp.kotlinlang.org/mcp
+  verified: probed
+  probe: live
+  checked: '2026-09-11'
+  source: docs-check 2026-09-12 (endpoint found in the provider's own documentation, then probed)
+tools_count: 2
+tools:
+- name: search_kotlinlang
+  description: ''
+- name: get_kotlinlang_page
+  description: ''
+tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
+authorship: provider
