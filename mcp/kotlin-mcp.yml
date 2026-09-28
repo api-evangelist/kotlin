@@ -16,8 +16,14 @@ deployment:
 tools_count: 2
 tools:
 - name: search_kotlinlang
-  description: ''
+  description: Search across Kotlin documentation on kotlinlang.org to find relevant pages, code examples,
+    API references, and guides. Use this tool when you need to answer questions about Kotlin language
+    features, standard library, coroutines, multiplatf
 - name: get_kotlinlang_page
-  description: ''
+  description: Retrieve the full content of a specific Kotlin documentation page from kotlinlang.org in
+    md format. Use this tool when you already know the page path (e.g., from search results) and need
+    the complete content of that page rather than just a
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
