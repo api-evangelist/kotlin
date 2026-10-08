@@ -74,6 +74,12 @@ apis:
       - type: Reference
         url: https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/
 common:
+  - type: Plans
+    url: plans/kotlin-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kotlin-rate-limits.yml
+  - type: FinOps
+    url: finops/kotlin-finops.yml
   - type: DomainSecurity
     url: security/kotlin-domain-security.yml
   - type: LinkedIn
