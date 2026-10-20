@@ -1,0 +1,54 @@
+{
+  "endpoint": "https://mcp.kotlinlang.org/mcp",
+  "captured": "2026-10-20",
+  "method": "initialize + tools/list (anonymous, no tool called; roadmap#992)",
+  "protocol_version": "2025-06-18",
+  "server_info": {
+    "name": "kotlinlang-mcp-server",
+    "version": "1.0.0"
+  },
+  "result": {
+    "tools": [
+      {
+        "name": "search_kotlinlang",
+        "inputSchema": {
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "A search query to find relevant Kotlin documentation pages (e.g. 'coroutines', 'sealed classes', 'multiplatform setup')"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "description": "Search across Kotlin documentation on kotlinlang.org to find relevant pages, code examples, API references, and guides. Use this tool when you need to answer questions about Kotlin language features, standard library, coroutines, multiplatform, tooling, or any other topic covered in the official Kotlin documentation. Returns up to 5 results with page titles, paths, and text snippets. To get the full content of a specific page, use the get_kotlinlang_page tool with the page path from the search results.",
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        }
+      },
+      {
+        "name": "get_kotlinlang_page",
+        "inputSchema": {
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Page path relative to /docs/, without extension. Use the page paths returned from search_kotlinlang results (e.g. 'coroutines-overview', 'multiplatform/compose-multiplatform-and-jetpack-compose')"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "type": "object"
+        },
+        "description": "Retrieve the full content of a specific Kotlin documentation page from kotlinlang.org in md format. Use this tool when you already know the page path (e.g., from search results) and need the complete content of that page rather than just a snippet. If the page is not found, use search_kotlinlang to discover the correct path.",
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        }
+      }
+    ]
+  }
+}
