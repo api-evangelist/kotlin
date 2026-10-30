@@ -1,4 +1,4 @@
-# Kotlin (kotlin)
+# Kotlin
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,65 +66,111 @@
 
 Kotlin is a modern, concise, and safe programming language for the JVM, Android, and multiplatform development. It is developed by JetBrains and provides full interoperability with Java. Kotlin's standard library and ecosystem offer rich APIs for building applications across all platforms.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/kotlin/refs/heads/main/apis.yml)
+**Areas:** Android · JVM · Kotlin · Multiplatform · Programming Language
 
-## Scope
+## Kotlin on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Kotlin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kotlin/](https://apis.io/providers/kotlin/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (2)
 
- - Android, JVM, Kotlin, Multiplatform, Programming Language
+- [Kotlin Standard Library API](https://apis.io/apis/kotlin/stdlib/) — Core Kotlin standard library with collections, I/O, and utility functions.
+- [Kotlin Coroutines API](https://apis.io/apis/kotlin/coroutines/) — Library support for Kotlin coroutines with async/await patterns.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### MCP servers (1)
 
-### Kotlin Standard Library API
-Core Kotlin standard library with collections, I/O, and utility functions.
+Model Context Protocol servers that expose the API to agents.
 
-**Human URL:** [https://kotlinlang.org/api/latest/jvm/stdlib/](https://kotlinlang.org/api/latest/jvm/stdlib/)
+- [kotlin](https://apis.io/servers/kotlin/kotlin/)
 
+#### Security (1)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - Collections, Core, Stdlib
+- [Kotlin Domain Security](https://apis.io/security/kotlin/kotlin-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://kotlinlang.org/api/latest/jvm/stdlib/)
-- [Reference](https://kotlinlang.org/api/latest/jvm/stdlib/alltypes/)
+Published plans, tiers and prices.
 
-### Kotlin Coroutines API
-Library support for Kotlin coroutines with async/await patterns.
+- [Kotlin Plans Pricing](https://apis.io/plans/kotlin/kotlin-plans-pricing/)
 
-**Human URL:** [https://kotlinlang.org/api/kotlinx.coroutines/](https://kotlinlang.org/api/kotlinx.coroutines/)
+#### Rate limits (1)
 
+Published request limits.
 
-#### Tags:
+- [Kotlin Rate Limits](https://apis.io/rate-limits/kotlin/kotlin-rate-limits/)
 
- - Async, Concurrency, Coroutines
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://kotlinlang.org/docs/coroutines-overview.html)
-- [Reference](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/)
+- [Kotlin Finops](https://apis.io/finops/kotlin/kotlin-finops/)
 
-## Common Properties
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://kotlinlang.org/)
 - [Documentation](https://kotlinlang.org/docs/home.html)
 - [Blog](https://blog.jetbrains.com/kotlin/)
-- [GitHub Organization](https://github.com/JetBrains/kotlin)
-- [Community](https://kotlinlang.org/community/)
+- [GitHub](https://github.com/JetBrains/kotlin)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.5** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kotlin/](https://apis.io/providers/kotlin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kotlin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kotlin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
